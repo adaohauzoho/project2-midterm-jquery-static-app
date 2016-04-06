@@ -1,0 +1,132 @@
+<!-- ****** IS322 - Final Project | Emmanuel A. & Adaoha U. | April 06, 2016 *************-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cater</title>
+<link rel="stylesheet" href="themes/catertheme.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    </head>
+    <body>
+        <div data-role="page" id="page1" data-theme="d">
+            <div data-role="header">
+                <h1>CATEr</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page1" data-icon="grid"> Home</a></li>
+                        <li><a href="#contact" data-icon="grid"> Contact</a></li>
+                    
+                    </ul>
+                </div>
+            </div>
+        
+        <div data-role="main" class="ui-content">
+            <h1>Welcome</h1>
+            <div class="log-form">
+  <h2>Login to your account</h2>
+  <form>
+    <input type="text" title="username" placeholder="username" />
+    <input type="password" title="username" placeholder="password" />
+    <button type="submit" class="btn">Login</button>
+      <a class="Log in as Guest" href="#page2">Log in as Guest!</a>
+  </form>
+</div>
+        
+            </div>
+            
+            <div data-role="footer">
+            <h2> @ CATEr App | (c) 2016 </h2>
+            </div>
+        
+        </div>
+        <!-- ******* Please do not touch any of the code above this text insert ******** -->
+
+<!-- ************* 
+id match:
+#page1 = home/ login page 
+#page2 = type of event?
+#page3 = cuisine?
+#page4 = # of people?
+#page5 = budget?
+#page6 = miles?
+#page7 = results
+ *************-->
+
+<!-- ************* START OF PAGE 2 *************-->
+         <div data-role="page" id="page2" data-theme="d">
+        <!-- ************* HEADER SECTION: DON'T TOUCH! EVER!!! *************-->
+            <div data-role="header">
+                <h1>Cater</h1>
+                    <input type="button" value="Back" onclick="window.history.back()" /> 
+                <div data-role="navbar">
+                <ul>
+                        <li><a href="#page1" data-icon="grid"> Home</a></li>
+                        <li><a href="#contact" data-icon="grid"> Contact</a></li>
+                    
+                    </ul>
+                </div>
+            </div>
+        
+        <div data-role="main" class="ui-content">
+
+        <!-- ************* END OF HEADER SECTION: DON'T TOUCH! EVER!!! ************* -->
+        <!-- ************* Edit code below ***************************************** -->
+ 	
+ <h3>What Type of Event?</h3>
+ 
+ <form id="myform" action="formprocessor.php" method="post">
+ <div data-role="fieldcontain">
+ <label for="select-restaurants">Select your Event</label>
+ <select id="select-restaurants" name="select-restaurants">
+ <option value="babyshower">Baby Shower</option>
+ <option value="wedding">Wedding</option>
+ <option value="bridalshower">Bridal Shower</option>
+ <option value="barmitzvah">Bar Mitzvah</option>
+ <option value="graduationparty">Graduation Party</option>
+ <input type="submit" value="Next">
+ </select>
+ </div>
+ </form>
+    </div>
+    
+            </div>
+            
+            <div data-role="footer">
+            <h2> @ CATEr App | (c) 2016 </h2>
+            </div>
+        
+        </div>
+<!-- ************* END OF PAGE 2 ***************-->
+
+<!-- ************* START OF PAGE 3 *************-->
+
+<!-- ************* END OF PAGE 3 ***************-->
+
+
+
+<!-- ************* START OF PAGE 4 *************-->
+
+<!-- ************* END OF PAGE 4 ***************-->
+
+
+<!-- ************* START OF PAGE 5 *************-->
+
+<!-- ************* END OF PAGE 5 ***************-->
+
+
+<!-- ************* START OF PAGE 6 *************-->
+
+<!-- ************* END OF PAGE 6 ***************-->
+
+
+<!-- ************* START OF PAGE 7 *************-->
+
+<!-- ************* END OF PAGE 7 ***************-->
+
+
+    </body>
+    </html>
